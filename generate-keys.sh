@@ -20,7 +20,7 @@ if [ "$1" != "" ]; then
 	echo "PASSPHRASE PARA ${NOMBREKEY}.pem y ${NOMBREKEY}.ppk"
 	echo $PASSPHRASE 2>&1 | tee $NOMBREKEY.passphrase.txt
 	echo $LINEA
-	ssh-keygen -P $PASSPHRASE -t rsa -b 2048 -m pem -f $NOMBREKEY.pem
+	ssh-keygen -P $PASSPHRASE -t rsa -b 4096 -m pem -f $NOMBREKEY.pem
 	puttygen $NOMBREKEY.pem -o $NOMBREKEY.ppk -O private --new-passphrase $NOMBREKEY.passphrase.txt --old-passphrase $NOMBREKEY.passphrase.txt
 else
 	echo "ERROR: Necesito nombre de key como argumento de este script."
