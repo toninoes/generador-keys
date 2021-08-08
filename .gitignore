@@ -1,0 +1,4 @@
+*.passphrase.txt
+*.pem
+*.pem.pub
+*.ppk
