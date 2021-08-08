@@ -20,18 +20,18 @@ Generating public/private rsa key pair.
 Your identification has been saved in toninoes.pem
 Your public key has been saved in toninoes.pem.pub
 The key fingerprint is:
-SHA256:gGjFzRHxr3M8C2VWCKpr8Lu3yAH0F9ELA0CcNsd5VWU toni@tonipc
+SHA256:GvfP7xCVzv8dAyqj2hN6oE/SRvvFuM2MzR0M77P1l/0 toni@tonipc
 The key's randomart image is:
-+---[RSA 2048]----+
-| oo=o==*o...E    |
-|  =o=.*+.. o     |
-| .+o..+o... .    |
-| o . . o.. .     |
-|  o o . S =      |
-|   + o   *       |
-|    =   + +      |
-|   o +.  + o     |
-|    =o..  .      |
++---[RSA 4096]----+
+|                 |
+|               . |
+|              o  |
+|             +   |
+|     .. S.  ..o  |
+|    o..=o.+ .... |
+|   ..=+..=.=.. o+|
+|   .+.oo@ =+o...B|
+|    .oo*.* +=oo.E|
 +----[SHA256]-----+
 ######################################################################
 ```
@@ -42,8 +42,8 @@ toni@tonipc:~$ ll
 total 60
 ...
 ...
--rw-r--r-- 1 toni toni    13 Aug  8 14:46 toninoes.passphrase.txt
--rw------- 1 toni toni  1766 Aug  8 14:46 toninoes.pem
--rw-r--r-- 1 toni toni   393 Aug  8 14:46 toninoes.pem.pub
--rw------- 1 toni toni  1460 Aug  8 14:46 toninoes.ppk
+-rw-r--r-- 1 toni toni    13 Aug  8 19:18 toninoes.passphrase.txt
+-rw------- 1 toni toni  3326 Aug  8 19:18 toninoes.pem
+-rw-r--r-- 1 toni toni   737 Aug  8 19:18 toninoes.pem.pub
+-rw------- 1 toni toni  2681 Aug  8 19:18 toninoes.ppk
 ```
