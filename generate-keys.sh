@@ -2,15 +2,14 @@
 LINEA="######################################################################"
 echo $LINEA
 echo "COMPROBANDO QUE ESTEN INSTALADOS PUTTYGEN Y PWGEN"
-if ! command -v puttygen &> /dev/null
-then
+if [ ! `which puttygen` ]; then
     sudo apt-get install putty-tools -y
 fi
 
-if ! command -v pwgen &> /dev/null
-then
+if [ ! `which pwgen` ]; then
     sudo apt-get install pwgen -y
 fi
+
 #sudo apt-get install putty-tools pwgen -y
 echo $LINEA
 
